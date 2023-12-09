@@ -34,3 +34,26 @@ Most API calls must be authenticated using a [JWT](https://jwt.io) access token 
 
 The access token embeds claims that you can parse and use in your application if you'd like, for example to display a gravatar based on the user's email address or to store information about players using their user ID. These claims also influence API behavior not just for authentication and authorization but also to return only that player's specific information.
 
+## Register
+
+### HTTP Request
+
+`POST https://api.cosmosgame.space/v1/register/`
+
+## Login
+
+### HTTP Request
+
+`POST https://api.cosmosgame.space/v1/login/`
+
+## Logout
+
+### HTTP Request
+
+`POST https://api.cosmosgame.space/v1/logout/`
+
+## Reauthenticate
+
+### HTTP Request
+
+`POST https://api.cosmosgame.space/v1/reauthenticate/`
